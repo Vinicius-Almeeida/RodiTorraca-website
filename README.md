@@ -54,7 +54,7 @@ Deploy automático via [Vercel](https://vercel.com)
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/roditorraca-website.git
+git clone https://github.com/Vinicius-Almeeida/RodiTorraca-website.git
 
 # Acesse a pasta do projeto
 cd roditorraca-website
@@ -64,24 +64,12 @@ npm install
 
 # Rode em modo dev
 npm run dev
-💼 Créditos
+
+```
+
+## 💼 Créditos
 Desenvolvido por Vinícius Almeida — Full Stack Developer ⚙️
 Design e conteúdo idealizados para Rodi & Torraca Advocacia.
 
-📌 Licença
+## 📌 Licença
 Este projeto é open source, mas o conteúdo visual e textual pertence exclusivamente ao escritório Rodi & Torraca. © Todos os direitos reservados.
-
-yaml
-Copiar código
-
----
-
-### ✅ Agora:
-
-1. Cria o arquivo `README.md` na raiz do projeto
-2. Cola esse conteúdo
-3. Dá um commitzinho com:
-```bash
-git add README.md
-git commit -m "Adiciona README estilizado"
-git push
