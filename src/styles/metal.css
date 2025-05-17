@@ -1,0 +1,21 @@
+.bg-metal-mouse {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at center, #121212, #000000);
+  }
+  
+  .bg-metal-mouse::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    width: 400px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.02) 0%, transparent 60%);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: top 0.08s, left 0.08s;
+    filter: blur(40px);
+  }
+  
